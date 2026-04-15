@@ -1,0 +1,74 @@
+# migration-pods.yaml
+# Apply with: kubectl apply -f migration-pods.yaml
+# Then screenshot: kubectl get pods -o wide
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: migration-demo
+
+---
+# Pod 1 — simulates a web/app tier
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-tier
+  namespace: migration-demo
+  labels:
+    app: app-tier
+    project: migration
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app-tier
+  template:
+    metadata:
+      labels:
+        app: app-tier
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:alpine
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+              cpu: "50m"
+              memory: "64Mi"
+            limits:
+              cpu: "100m"
+              memory: "128Mi"
+
+---
+# Pod 2 — simulates a data/cache tier
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: data-tier
+  namespace: migration-demo
+  labels:
+    app: data-tier
+    project: migration
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: data-tier
+  template:
+    metadata:
+      labels:
+        app: data-tier
+    spec:
+      containers:
+        - name: redis
+          image: redis:alpine
+          ports:
+            - containerPort: 6379
+          resources:
+            requests:
+              cpu: "50m"
+              memory: "64Mi"
+            limits:
+              cpu: "100m"
+              memory: "128Mi"

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "capstone-york",
+  "private_key_id": "e4ce905a3f8a6b2be7e71ebde1d014f5c443220b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDOYfpOfFcqjjnu\n2Wn8pOpnPT8Pb7Xe5RYMYt4OYcglM/XJUgCbXX4FpkGQwURkku6Vxj/qofHGhC1P\nV0EK+nNcnCVdT1Dfq6Z1lOkYbQ6Q0oXvO4h8TnS6Atx0jAz+x7+Q5ZJ1HjbpBlX1\nt79pprtnxvq5cEbttT6l0eiRkLxEn4WRYIh0AzTFYtdIuy1HRWuJo3AA9lasvmze\nTQ1ILgUQLdSAdn2ixx4kxfzHq7fwYH01f7id90UbyZx9+XCaaDPLK37Fm4Pg0nyE\novbCulTLedNtl8ybOM5qLJvs9PfERBG+ouzOMzrQrAidxRbyzAjURaNv1/JgcsT7\nOudsgEzlAgMBAAECggEAX+8ra1BhNGbohx6JJeeDDnpp1cMXx4S1uww6LHVHlAOT\nPQHhRlcvPXELCT7Ni/LA9N4y195vhNfsN/VXRsMk3Oe4dqdn8JDZz85oi/Il0ywJ\nFiuWRjIyEEVENOjlIYm4gqI0cjyZSbioPJAtae8XLiZQZeLLFbQqauooMYIWAc9P\nGW9ty2vj/83c65mddpfMFpMrnM8SvXIK9tfQ4WEa8VaVYEnb87MT2kuFU0+PkT6B\n6Cn+BvURnlBrbzQRANWnEPqhpBX/TSTGVyXL+uV/U6NecdzRwlDrW3amWBWIjvqB\nKeSqD0Ak7z5LSaKYEVOTv0Esa4ZTOUdSxK8Py3E0AQKBgQD13Nh0PR+PVcK3I5Tm\n7uoG50lVJ/9ZnMlhr3zECLg5og4bFHaPATunbsW1VpajI/Uh+5o98cjD1RaLdZCC\ns1h0+5zHtZ+6hyFMSewkIl7IFH+NL6DNyXHZdUHVy8zCCH0nGJ+JhkdZBwoMrVAo\nbWylGHy/BlskEg/QOkYBDdzoYwKBgQDW5GjTLpsuNjK1LMIqPhgkyEYv9PnQ2zYM\nc+ZFilWOgIgBBypzfew0/DD0W+6acFWuzOOLeKjrmcZYkMANuhkXOcL+3xzVbMAV\nX3PWp3ij5gOIwLGWOL8LLAa5os4e1qRcXAPCCbfQLeh732Ygo6lL6VK+Y67VTRZ8\nLqfR+pikFwKBgFXbZ2NALRM62aJmtIroh6Udg4hPTWaXz+NjCujSOrM1mkNuo/BQ\nd+qCTlyC/lu+JM5XNIfJNVjdwt+0kGB0DMHdU+SR0lOq+L/RWLtNnVe1gM1nAnqa\njD1qKzFj1/8yQ7IxcRTvZV77jFDc/Q8BF12X7YgvyggQnqESmHupwakNAoGBAJHf\nq2jwEldkYzepkoSqcilF6p9TZOHqbN43LvG13i5GAgzwmFid+mJdb73xSh98ci2e\n2DgtSD3mvUYRvM2UrsOdakkpm6ElmZ7olPH57WMVGQEUDXk0PDuRP190rQcyHZC0\nxbhKcITZJSAxnlo5vwrQ8GJduKkDE2hpI3Le8g8xAoGBALZGELqo6RGAx7SHQoXL\nWvw7yBJQmuiuIQTrcdsYns1qJ/tvrH3mt4GpUQ9BUYfGHm3hKl0acn3N5Z47DsIX\neG6SlwkMsguCY2kyLpIHUfQ5jzgiuUxjQLm3BIu/T15yYHO1HSX5NVdpnMrJ+FVR\nrhh3sQDO51xQcGYvelusfEmR\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraform-sa@capstone-york.iam.gserviceaccount.com",
+  "client_id": "114685230681319775737",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform-sa%40capstone-york.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
